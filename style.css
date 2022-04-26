@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    height: 550px;
+    width: 600px;
+    border: 1px solid gray;
+    padding: 1em 3em;
+}
+
+#add {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid gray;
+    padding: 1em 0;
+}
+
+.items {
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.input_style {
+    background-color: rgb(241, 240, 240);
+}
+
+.button_style {
+    background-color: rgb(55, 88, 183);
+    color: white;
+    border: none;
+}
+
+#search {
+    display: flex;
+    gap: 10px;
+    padding: 1em 0;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1em 0;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.contact_list {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    padding: 0.8em;
+    font-size: 1.3em;
+}
+
+.contact_name {
+    flex: 60%;
+}
+
+.contact_phone {
+    flex: 40%;
+    text-align: right;
+}
+
