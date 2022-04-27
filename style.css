@@ -68,3 +68,7 @@
     text-align: right;
 }
 
+button:hover {
+    background-color: rgb(44, 70, 148);
+}
+
